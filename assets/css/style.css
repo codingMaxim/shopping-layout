@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+}
+body {
+  background-color: rgb(240, 240, 240);
+}
+.main-heading {
+  text-align: center;
+}
+h2 {
+  padding: 0 8px;
+}
+.main-site {
+  padding-top: 25px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: [left-offset] 10% [first] 1fr [between-offset] 2% [second] 1fr [between-offset] 2% [third] 1fr [right-offset] 10%;
+}
+img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main-cart {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 2px lightgray;
+}
+.first-column {
+  grid-column: 2 / 3;
+}
+.second-column {
+  grid-column: 4 / 5;
+}
+.third-column {
+  grid-column: 6 / 7;
+}
+.linear {
+  position: relative;
+}
+.gradient {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  margin-top: -50px;
+  background: linear-gradient(transparent, #fff);
+}
+p {
+  padding: 0 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.cart-options {
+  margin: 10px 10px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  overflow: auto;
+}
+.costs {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px;
+  background: #fff;
+  border-radius: 5px;
+}
+select {
+  width: 50px;
+}
+
+.select-box {
+  display: flex;
+  justify-content: space-around;
+}
+.color {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.blue {
+  background: blue;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.red {
+  background: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.black {
+  background: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.mud-green {
+  background: green;
+  width: 10px;
+  height: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.half-black {
+  background: black;
+  width: 10px;
+  height: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-right: 10px;
+}
+.half-white {
+  background: white;
+  width: 10px;
+  height: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-right: 10px;
+}
+.dodgerblue {
+  background: dodgerblue;
+  width: 10px;
+  height: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.hotpink {
+  background: hotpink;
+  width: 10px;
+  height: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.half-black-nb {
+  background: black;
+  width: 10px;
+  height: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.half-red {
+  background: red;
+  width: 10px;
+  height: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.add-to-cart {
+  background: rgb(28, 25, 202);
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
