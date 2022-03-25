@@ -58,14 +58,14 @@ p {
   margin: 10px 10px;
   background-color: rgb(240, 240, 240);
   border-radius: 10px;
-  overflow: auto;
+  padding: 10px;
 }
 .costs {
   font-size: 1.5rem;
   text-align: center;
-  margin: 10px;
   background: #fff;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 select {
   width: 50px;
